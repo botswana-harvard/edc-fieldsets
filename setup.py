@@ -10,9 +10,9 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='edc-fieldsets',
-    version='0.1.1',
-    author=u'Erik van Widenfelt',
-    author_email='ew2789@gmail.com',
+    version='0.1.2',
+    author=u'Software Engineering & Data Management',
+    author_email='se-dmc@bhp.org.bw',
     packages=find_packages(),
     include_package_data=True,
     url='http://github.com/botswana-harvard/edc-fieldsets',
